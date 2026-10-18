@@ -40,6 +40,7 @@ GitHub Pages rebuilds in about a minute.
 DNS records at the registrar for `rogersautomation.co`:
 
 - Four `A` records on the apex (`@`) pointing to GitHub Pages. Check the current values at https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site
-- One `CNAME` record for `www` pointing to `<github-username>.github.io`
+- Four `AAAA` records on the apex (optional, for IPv6)
+- One `CNAME` record for `www` pointing to `rogers-automation-co.github.io`
 
 After DNS resolves, turn on Enforce HTTPS in the repo's Pages settings. Also verify the domain in your GitHub account settings under Pages.
