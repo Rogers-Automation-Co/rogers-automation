@@ -19,7 +19,7 @@ Static site for https://rogersautomation.co, served by GitHub Pages from the `ma
 
 Open `index.html` in any editor. Each section is marked by its `id` (`services`, `about`, `contact`). Change the text between the tags and save. Do not use em dashes in copy.
 
-To set the contact email, search for `EMAIL_PLACEHOLDER` and `[ADD: business email]` and replace both with the real address.
+The contact email (`inquiry@rogersautomation.co`) appears in the `mailto:` link and the link text in the `contact` section. Change both if it moves.
 
 ## Previewing
 
