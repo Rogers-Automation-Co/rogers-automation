@@ -116,12 +116,11 @@ img { max-width: 100%; height: auto; display: block; }
 .grid { display: grid; grid-template-columns: 13rem minmax(0, 1fr); gap: 2rem 3rem; }
 .label { color: var(--steel); padding-top: .55rem; }
 
-.practice { list-style: none; padding: 0; }
-.practice li { padding: 1.6rem 0; border-top: 1px solid var(--rule); }
-.practice li:first-child { border-top: 0; padding-top: 0; }
-.practice li:last-child { padding-bottom: 0; }
-.practice h3 { font-weight: 500; font-size: 1.65rem; line-height: 1.25; }
-.practice p { color: var(--muted); margin-top: .3rem; max-width: 36rem; }
+.practice { list-style: none; padding: 0; margin: 2.25rem 0 0; border-top: 1px solid var(--rule); }
+.practice li {
+  padding: 1.05rem 0; border-bottom: 1px solid var(--rule);
+  font-size: 1.5rem; line-height: 1.3; color: var(--ink);
+}
 
 .prose { max-width: 38rem; }
 .prose p + p { margin-top: 1.1rem; }
@@ -147,5 +146,5 @@ img { max-width: 100%; height: auto; display: block; }
   .masthead nav a { letter-spacing: .18em; font-size: .7rem; }
   .grid { grid-template-columns: 1fr; gap: 1.5rem; }
   .label { padding-top: 0; }
-  .practice h3, .name { font-size: 1.45rem; }
+  .practice li, .name { font-size: 1.3rem; }
 }
