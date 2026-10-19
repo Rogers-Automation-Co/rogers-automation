@@ -8,7 +8,7 @@ Static site for https://rogersautomation.co, served by GitHub Pages from the `ma
 | --- | --- |
 | `index.html` | All page content |
 | `styles.css` | All styling and colors (see `:root` at the top) |
-| `fonts/` | Self-hosted EB Garamond (headings and text) and Saira (small capitals labels), latin subset, woff2 |
+| `fonts/` | Self-hosted Saira (variable font, latin subset, woff2) |
 | `rogers-logo.svg`, `rogers-logo-white.svg` | Logo for light and dark backgrounds |
 | `rogers-gear-icon.svg`, `favicon-*.png`, `apple-touch-icon.png` | Favicons |
 | `og-image.png` | 1200x630 social share image |
