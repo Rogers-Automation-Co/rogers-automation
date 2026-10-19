@@ -17,7 +17,7 @@ Static site for https://rogersautomation.co, served by GitHub Pages from the `ma
 
 ## Editing text
 
-Open `index.html` in any editor. Each section is marked by its `id` (`practice`, `principal`, `inquiries`). Change the text between the tags and save. Do not use em dashes in copy.
+Open `index.html` in any editor. Each section is marked by its `id` (`practice`, `founder`, `inquiries`). Change the text between the tags and save. Do not use em dashes in copy.
 
 The contact email (`inquiry@rogersautomation.co`) appears in the `mailto:` link and the link text in the `inquiries` section. Change both if it moves.
 
